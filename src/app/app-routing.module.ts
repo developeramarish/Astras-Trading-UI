@@ -11,6 +11,10 @@ const routes: Routes = [
     loadChildren: () => import('./modules/dashboard/dashboard.module').then(m => m.DashboardModule)
   },
   {
+    path: 'widgets-mock',
+    loadChildren: () => import('./widgets-mock/widgets-mock.module').then(m => m.WidgetsMockModule)
+  },
+  {
     path: '',
     loadChildren: () => import('./modules/dashboard/dashboard.module').then(m => m.DashboardModule)
   }

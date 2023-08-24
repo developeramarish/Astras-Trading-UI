@@ -22,7 +22,8 @@ import { NzResizeObserverModule } from 'ng-zorro-antd/cdk/resize-observer';
         NzResizeObserverModule
     ],
   exports: [
-    LightChartWidgetComponent
+    LightChartWidgetComponent,
+    LightChartComponent
   ]
 })
 export class LightChartModule { }
